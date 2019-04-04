@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 {
     int iRet = 0;
 
-    iRet = Hosts_Initialize("/tmp/zwhost/host.conf", "/tmp/zwhost/hosts", "/etc/resolv.conf");
+    iRet = Hosts_Initialize("/usr/local/etc/host.conf", "/etc/hosts", "/etc/resolv.conf");
     printf("Hosts_Initialize Ret[%d]\n", iRet);
 
     while (1)
