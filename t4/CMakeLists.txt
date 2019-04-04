@@ -27,4 +27,3 @@ message(STATUS "PROJECT_SOURCE_DIR = " ${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR})
 
 add_subdirectory(src)
-add_subdirectory(libtest)
